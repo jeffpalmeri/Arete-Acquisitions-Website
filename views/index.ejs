@@ -62,7 +62,7 @@
           <li><a href="#timeline">Our History</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#team">Our Process</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#footer">Contact Us</a></li>
         </ul>
       </nav><!-- .main-nav -->
       
@@ -72,23 +72,54 @@
   <!--==========================
     Intro Section
   ============================-->
-  <section id="intro" class="clearfix">
-    <div class="container d-flex h-100">
-      <div class="row justify-content-center align-self-center">
-        <div class="col-md-6 intro-info order-md-first order-last">
-          <h2>Your Minerals...<br>Your <span>Money</span></h2>
-          <div>
+  <section id="intro">
+    <div id="introHeading" class="row intro-section">
+      <div class="container d-flex">
+        <div class="col-lg-6 justify-content-center align-self-center">
+          <h2 class="text-center">Your Minerals...<br>Your <span>Money</span></h2>
+          <div class="d-flex justify-content-center">
             <a href="#about" class="btn-get-started scrollto">Get Started</a>
           </div>
         </div>
-  
-        <!-- <div class="col-md-6 intro-img order-md-last order-first">
-          
-        </div> -->
-      </div>
 
+        <!--<div class="col-lg-6 justify-self-center align-self-center">
+          <div class="form">
+              
+            <h4>Send us a message</h4>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+
+              <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+            </form>
+          </div>
+        </div>-->
+
+      </div>
     </div>
-  </section><!-- #intro -->
+  </section>
+  
+
+
+
+
 
   <main id="main">
 
@@ -109,13 +140,13 @@
           <div class="col-lg-7 col-md-6">
             <div class="about-content">
               <h2>About Us</h2>
-              <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-              <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
+              <h3>Arete Acquisitions is a full service Oil, Gas & Minerals Acquisition Company.</h3>
+              <p>The Shale Energy Boom brought energy and economic opportunities never before seen in America. Landowners nationwide are finding they have an asset they can profit from that they never knew they had before, but recent changes in the energy market have changed way some land owners are looking at their property.</p>
+              <p>We buy both producing and non-producing oil, gas and mineral rights (OGMs) and royalty interests. Selling OGMs to us is an easy and cost effective way to obtain a lump sum payout for your rights. <strong>When buying interests, we handle all the research and document generation. You just sign and cash the check!</strong></p>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                <li><i class="ion-android-checkmark-circle"></i> We’ll be celebrating our 10th year in business this January!</li>
+                <li><i class="ion-android-checkmark-circle"></i> We have three different offices located in Laffayette, Louisiana; Norman, Oklahoma; Ithaca, New York</li>
+                <li><i class="ion-android-checkmark-circle"></i> In just the last two years alone, we’ve completed 528 deals!</li>
               </ul>
             </div>
           </div>
@@ -131,8 +162,7 @@
       <div class="container-fluid">
         
         <header class="section-header">
-          <h3>Why choose Arete?</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+          <h3 class="mb-5">Why choose Arete?</h3>
         </header>
 
         <div class="row">
@@ -145,31 +175,31 @@
 
           <div class="col-lg-6">
             <div class="why-us-content">
-              <p>Molestiae omnis numquam corrupti omnis itaque. Voluptatum quidem impedit. Odio dolorum exercitationem est error omnis repudiandae ad dolorum sit.</p>
-              <p>
+              <p>As a mineral owner, you have the right to sell your oil, gas and mineral rights to any party you choose. Arete Acquisitions is self-funded, so we don’t need to answer to banks or boards to approve deals. This also allows us to focus on smaller interests that others may dismiss.</p>
+              <!-- <p>
                 Explicabo repellendus quia labore. Non optio quo ea ut ratione et quaerat. Porro facilis deleniti porro consequatur
                 et temporibus. Labore est odio.
 
                 Odio omnis saepe qui. Veniam eaque ipsum. Ea quia voluptatum quis explicabo sed nihil repellat..
-              </p>
+              </p> -->
 
               <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-diamond" style="color: #f058dc;"></i>
-                <h4>Corporis dolorem</h4>
-                <p>Commodi quia voluptatum. Est cupiditate voluptas quaerat officiis ex alias dignissimos et ipsum. Soluta at enim modi ut incidunt dolor et.</p>
+                <h4>Your minerals, your money</h4>
+                <p>As with any asset and financial transaction, you can choose how to realize YOUR economic goals for your property. We pride ourselves by working with landowners to identify their goals and options. We speak with each landowner individually to determine how we can help get the maximum value for their property.</p>
               </div>
 
               <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-object-group" style="color: #ffb774;"></i>
-                <h4>Eum ut aspernatur</h4>
-                <p>Molestias eius rerum iusto voluptas et ab cupiditate aut enim. Assumenda animi occaecati. Quo dolore fuga quasi autem aliquid ipsum odit. Perferendis doloremque iure nulla aut.</p>
+                <h4>Get in touch!</h4>
+                <p>Thank you for visiting our website, if you have any questions at all, or would like to submit your property for a 100% free analysis, you get in touch with us <a href="#footer">here</a>!</p>
               </div>
               
-              <div class="features wow bounceInUp clearfix">
+              <!-- <div class="features wow bounceInUp clearfix">
                 <i class="fa fa-language" style="color: #589af1;"></i>
                 <h4>Voluptates dolores</h4>
                 <p>Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. Totam dolores ut enim ullam voluptas distinctio aut.</p>
-              </div>
+              </div> -->
               
             </div>
 
